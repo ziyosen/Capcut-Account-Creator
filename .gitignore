@@ -48,3 +48,9 @@ Thumbs.db
 test-results/
 playwright-report/
 playwright/.cache/
+
+# Generated output containing credentials (do not commit)
+proof.json
+
+# Debug screenshots (not part of the release)
+debug_*.png
