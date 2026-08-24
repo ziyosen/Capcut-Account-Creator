@@ -1,16 +1,4 @@
-"""
-Mail.tm API Client
-==================
-Implementasi auto email sementara (temp mail) berdasarkan dokumentasi resmi:
-https://docs.mail.tm/getting-started/authentication
 
-Flow:
-1. GET  /domains          -> ambil domain aktif
-2. POST /accounts         -> buat akun email acak
-3. POST /token            -> dapatkan Bearer token
-4. GET  /messages         -> polling inbox (pakai Bearer token)
-5. GET  /messages/{id}    -> baca isi email untuk ekstrak kode OTP
-"""
 
 import re
 import time
